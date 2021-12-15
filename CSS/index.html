@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UDelmy CSS course</title>
+    <style>
+        div#mydiv {
+            width: 150px;
+            height: 150px;
+            position: relative;
+            background-color: red;
+            animation-name: example;
+            animation-duration: 4s;
+            animation-delay: 2s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes example {
+            0% {
+                background-color: red;
+                left: 0px;
+                top: 0px;
+            }
+
+            25% {
+                background-color: yellow;
+                left: 200px;
+                top: 0px;
+            }
+
+            50% {
+                background-color: blue;
+                left: 200px;
+                top: 200px;
+            }
+
+            75% {
+                background-color: orange;
+                left: 0px;
+                top: 200px;
+            }
+
+            100% {
+                background-color: red;
+                left: 0px;
+                top: 0px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>hello world</h1>
+    <h1>second h1</h1>
+    <h2>h2 text</h2>
+    <p style="color : red">Paragraph with red color</p>
+    <p style="direction: rtl;">Paragraph right to left</p>
+    <p style="letter-spacing:5px">Paragraph with letter spacing 5px</p>
+    <p style="word-spacing: 5px;">Paragraph with word spacing 5px</p>
+    <p style="text-indent: 1em;">Paragraph with text indent 1em</p>
+
+    <div id="mydiv"></div>
+</body>
+
+</html>
