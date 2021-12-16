@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            width: 300px;
+            height: 100px;
+            background-color: pink;
+            border: 1px solid black;
+        }
+
+        div#mydiv {
+            transform: rotate(20deg);
+        }
+
+        div#mydiv2 {
+            transform: skewY(20deg);
+        }
+
+        div#mydiv3 {
+            transform: rotateX(150deg);
+        }
+
+        div#mydiv4 {
+            transform: rotateY(150deg);
+        }
+
+        div#mydiv5 {
+            transform: rotateZ(150deg);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>2D transformation</h1>
+    <div>this is box 1</div>
+    <div id="mydiv">This is box 2</div>
+    <div id="mydiv2">This is box 3</div>
+    <br>
+    <h1>3D transformation</h1>
+    <p>rotate X-axis</p>
+    <div id="mydiv3">This is box 4</div>
+    <p>rotate Y-axis</p>
+    <div id="mydiv4">This is box 5</div>
+    <p>rotate Z-axis</p>
+    <div id="mydiv5">This is box 6</div>
+</body>
+
+</html>
